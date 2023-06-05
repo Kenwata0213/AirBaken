@@ -3,30 +3,16 @@ from tkinter import ttk
 from datetime import datetime, timedelta, timezone
 import pandas as pd
 import numpy as np
-import datetime
-from tqdm.notebook import tqdm
-from sklearn.metrics import roc_auc_score
-from sklearn.preprocessing import LabelEncoder
-import lightgbm as lgb
 import requests
 from bs4 import BeautifulSoup
-import time
-import re
-from urllib.request import urlopen
-import optuna.integration.lightgbm as lgb_o
 from itertools import combinations, permutations, product
-import matplotlib.pyplot as plt
-from selenium import webdriver
-from urllib.parse import urljoin
-from chardet import detect
-from datetime import datetime
-import csv
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
-import time
 import ast
+import time
+import re
 
 class Info:
     def __init__(self):
